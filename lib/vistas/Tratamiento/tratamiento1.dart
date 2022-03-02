@@ -33,7 +33,7 @@ class _tratamiento1State extends State<tratamiento1> {
           Divider(),
           ListTile(
 
-            title: Text("Observaciones: El tratamiento de extiende por dos semanas mas debido al estado del paciente"),
+            title: Text("Observaciones: El tratamiento se extiende por dos semanas mas debido al estado del paciente"),
             
           ),
         ],
