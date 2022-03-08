@@ -87,7 +87,7 @@ onPressed: () {
               
               return AlertDialog(
                 title: new Text("Error al ingresar"),
-                content: new Text("Tu contraseña o correcto son incorrectos, intenta nuevamente"),
+                content: new Text("Tu contraseña o correo son incorrectos, intenta nuevamente"),
                 actions: <Widget>[
                   new FlatButton(
                     child: new Text("Ok"),
