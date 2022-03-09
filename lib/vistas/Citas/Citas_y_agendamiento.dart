@@ -1,6 +1,4 @@
-import 'package:clinicaluisoviedo/vistas/Citas/cita3.dart';
-import 'package:clinicaluisoviedo/vistas/Citas/citas1.dart';
-import 'package:clinicaluisoviedo/vistas/Citas/citas2.dart';
+import 'package:clinicaluisoviedo/ExportVistas/ExportViews.dart';
 import 'package:flutter/material.dart';
 
 
@@ -20,54 +18,7 @@ class _CitasAgendaState extends State<CitasAgenda> {
           centerTitle: true,
           title: Text('Citas y agendamiento'),
         ),
-        body: 
-
-        ListView(
-
-        children: [
-
-          ListTile(
-
-            title: Text("Cita 1"),
-            trailing: Icon(Icons.arrow_forward),
-            onTap: (){
-
-              Navigator.push(context,
-            
-            MaterialPageRoute(builder: (context) => cita1()));
-            },
-          ),
-          Divider(),
-          ListTile(
-
-            title: Text("Cita 2"),
-            trailing: Icon(Icons.arrow_forward),
-            onTap: (){
-
-            Navigator.push(context,
-            
-            MaterialPageRoute(builder: (context) => cita2()));
-            },
-          ),
-          Divider(),
-          ListTile(
-
-            title: Text("Cita 3"),
-            trailing: Icon(Icons.arrow_forward),
-            onTap: (){
-              
-            Navigator.push(context,
-            
-            MaterialPageRoute(builder: (context) => cita3()));
-            }, 
-          ),
-          
-
-         
-
-        ],
-      )
-
+        body: Cardcita(),
       ),
     );
   }

@@ -1,6 +1,4 @@
-import 'package:clinicaluisoviedo/vistas/Pago/pago1.dart';
-import 'package:clinicaluisoviedo/vistas/Pago/pago2.dart';
-import 'package:clinicaluisoviedo/vistas/Pago/pago3.dart';
+import 'package:clinicaluisoviedo/ExportVistas/ExportViews.dart';
 import 'package:flutter/material.dart';
 
 
@@ -20,50 +18,7 @@ class _PagorealizadoState extends State<Pagorealizado> {
           centerTitle: true,
           title: Text('Pagos realizados'),
         ),
-        body: 
-
-        ListView(
-
-        children: [
-
-          ListTile(
-
-            title: Text("Pago 1"),
-            trailing: Icon(Icons.arrow_forward),
-            onTap: (){
-             Navigator.push(context,
-            
-            MaterialPageRoute(builder: (context) => pago1()));
-            },
-          ),
-          Divider(),
-          ListTile(
-
-            title: Text("Pago 2"),
-            trailing: Icon(Icons.arrow_forward),
-            onTap: (){
-
-            Navigator.push(context,
-            
-            MaterialPageRoute(builder: (context) => pago2()));
-            },
-          ),
-          Divider(),
-          ListTile(
-
-            title: Text("Pago 3"),
-            trailing: Icon(Icons.arrow_forward),
-            onTap: (){
-              Navigator.push(context,
-            
-            MaterialPageRoute(builder: (context) => pago3()));
-            
-            }, 
-          ),
-          
-
-        ],
-      )
+        body: Cardpago()
 
       ),
     );

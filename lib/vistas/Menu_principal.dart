@@ -1,7 +1,4 @@
-import 'package:clinicaluisoviedo/vistas/Citas/Citas_y_agendamiento.dart';
-import 'package:clinicaluisoviedo/vistas/Pago/Pagos_realizados.dart';
-import 'package:clinicaluisoviedo/vistas/Tratamiento/Tratamientos.dart';
-import 'package:clinicaluisoviedo/vistas/datos_personales.dart';
+import 'package:clinicaluisoviedo/ExportVistas/ExportViews.dart';
 import 'package:flutter/material.dart';
 
 class Menup extends StatefulWidget {

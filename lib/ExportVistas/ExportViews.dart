@@ -1,0 +1,17 @@
+export 'package:clinicaluisoviedo/vistas/Citas/Citas_y_agendamiento.dart';
+export 'package:clinicaluisoviedo/vistas/Citas/cita3.dart';
+export 'package:clinicaluisoviedo/vistas/Citas/citas1.dart';
+export 'package:clinicaluisoviedo/vistas/Citas/citas2.dart';
+export 'package:clinicaluisoviedo/vistas/Menu_principal.dart';
+export 'package:clinicaluisoviedo/vistas/Pago/Pagos_realizados.dart';
+export 'package:clinicaluisoviedo/vistas/Pago/pago1.dart';
+export 'package:clinicaluisoviedo/vistas/Pago/pago2.dart';
+export 'package:clinicaluisoviedo/vistas/Pago/pago3.dart';
+export 'package:clinicaluisoviedo/vistas/Tratamiento/Tratamientos.dart';
+export 'package:clinicaluisoviedo/vistas/Tratamiento/tratamiento1.dart';
+export 'package:clinicaluisoviedo/vistas/Tratamiento/tratamiento2.dart';
+export 'package:clinicaluisoviedo/vistas/Tratamiento/tratamiento3.dart';
+export 'package:clinicaluisoviedo/vistas/datos_personales.dart';
+export 'package:clinicaluisoviedo/vistas/loginS.dart';
+export 'package:clinicaluisoviedo/vistas/CardVistas/CardCita.dart';
+export 'package:clinicaluisoviedo/vistas/CardVistas/CardPago.dart';
